@@ -15,15 +15,15 @@ const Home = () => {
           transition={{ duration: 0.8 }}
           className="text-center md:text-left"
         >
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-violet-500 to-blue-500 bg-clip-text text-transparent">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-violet-500 to-blue-500 bg-clip-text text-transparent">
             Hi, I'm Sharmilabanu
           </h1>
 
-          <p className="mt-3 text-lg sm:text-xl text-violet-300 font-semibold">
+          <p className="mt-3 text-sm sm:text-xl text-violet-300 font-semibold">
             MERN Stack Developer & Tech Enthusiast
           </p>
 
-          <p className="mt-5 sm:mt-6 text-gray-400 max-w-md mx-auto md:mx-0">
+          <p className="mt-5 sm:mt-6 text-gray-400 max-w-md mx-auto md:mx-0 md:text-xl text-sm">
             I build modern, responsive, and animated web applications using
             React, Node.js, MongoDB, and Tailwind CSS. Passionate about
             creating interactive user experiences and learning new technologies.
@@ -35,7 +35,7 @@ const Home = () => {
               href="https://github.com/I-Sharmilabanu"
               target="_blank"
               rel="noreferrer"
-              className="text-2xl text-gray-300 hover:text-violet-400 transition"
+              className="md:text-3xl text-gray-300 hover:text-violet-500 transition"
             >
               <FaGithub />
             </a>
@@ -44,7 +44,7 @@ const Home = () => {
               href="https://www.linkedin.com/in/sharmilabanu-07i?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               rel="noreferrer"
-              className="text-2xl text-gray-300 hover:text-blue-400 transition"
+              className="md:text-3xl text-gray-300 hover:text-violet-500 transition"
             >
               <FaLinkedin />
             </a>
@@ -52,7 +52,7 @@ const Home = () => {
             <a
               href={resume}
               download="Sharmila_Resume.pdf"
-              className="flex items-center gap-2 px-4 py-2 rounded-lg bg-violet-500 to-teal-500 hover:scale-105 transition text-white font-semibold"
+              className="flex items-center gap-2 px-2 py-2 rounded-lg bg-violet-500 to-teal-500 hover:scale-105 transition text-white font-semibold"
             >
               <FaDownload />
               CV

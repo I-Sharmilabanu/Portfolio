@@ -31,7 +31,7 @@ const skills = [
 const Skills = () => {
     return (
         <section className=" px-6">
-            <h2 className="text-3xl font-bold text-center mb-12 hover:text-violet-500">
+            <h2 className="md:text-3xl text-xl font-bold text-center mb-12 hover:text-violet-500">
                 Technical Skills
             </h2>
 
@@ -43,11 +43,11 @@ const Skills = () => {
                         transition={{ type: "spring", stiffness: 200 }}
                         className="flex flex-col items-center gap-3"
                     >
-                        <div className="w-20 h-20 bg-white/5 backdrop-blur border border-white/10 rounded-xl flex items-center justify-center">
+                        <div className="md:w-20 md:h-20 bg-white/5 backdrop-blur border border-white/10 rounded-xl flex items-center justify-center">
                             <img
                                 src={skill.image}
                                 alt={skill.name}
-                                className="w-12 h-12 object-contain"
+                                className="md:w-12 md:h-12 object-contain"
                             />
                         </div>
 

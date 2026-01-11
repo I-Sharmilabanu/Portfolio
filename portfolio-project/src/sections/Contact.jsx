@@ -8,9 +8,9 @@ const Contact = () => {
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="max-w-4xl mx-auto text-center bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-10"
+        className="max-w-4xl mx-auto text-center bg-white/5 backdrop-blur-lg  border-violet-500 border-2 shadow-violet-600 rounded-2xl p-10"
       >
-        <h2 className="text-3xl font-bold mb-4">
+        <h2 className="md:text-3xl  text-xl font-bold mb-4">
           Get In Touch
         </h2>
 
@@ -29,12 +29,12 @@ const Contact = () => {
         </a>
 
         {/* SOCIAL LINKS */}
-        <div className="flex justify-center gap-6 mt-8 text-2xl text-gray-400">
+        <div className="flex justify-center gap-6 mt-8 md:text-3xl text-gray-400">
           <a
             href="https://github.com/I-Sharmilabanu"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-white transition"
+            className="hover:text-violet-500 transition "
           >
             <FaGithub />
           </a>
@@ -43,7 +43,7 @@ const Contact = () => {
             href="https://www.linkedin.com/in/sharmilabanu-07i"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-white transition"
+            className="hover:text-violet-500 transition "
           >
             <FaLinkedin />
           </a>
